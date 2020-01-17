@@ -1,5 +1,5 @@
 # SCSeeker: Machine Learning for Stem Cell Discovery
-By RunLin Wang and Jonathan Liu, Harvard College, CS50 2019
+By RunLin Wang and Jonathan Liu, Harvard University
 
 ## Background Information
 Stem cells are unspecialized cells that can differentiate into various different types of cells, such as muscle cells and white blood cells. They have tremendous potential in regenerative medicine, since stem cells could theoretically be used to replace the tissues of damaged organs that cannot self-heal, such as the brain. This would allow for the development of cures for currently untreatable conditions like leukemia.
@@ -14,7 +14,7 @@ Our program `modelsetup.py` contains the code used to build the model from Keras
 
 ## Instructions for Use
 
-1. Download all files in this directory, keeping the folder organization intact. We strongly recommend that you do this on a local IDE (eg. Pycharm) since CS50 IDE was unable to correctly handle the Tensorflow software.
+1. Download all files in this directory, keeping the folder organization intact. We strongly recommend that you do this on a local IDE (eg. Pycharm).
 2. In your terminal, navigate to this folder using `cd`.
 3. Install all libraries indicated in `requirements.txt`.
 4. In your terminal, run `python modelsetup.py` to create a regression model based on the genetic data of stem cells and normal cells using Tensorflow and Keras. A number of statistics will show in the terminal regarding the accuracy of the model, and a graph will show the correlation of the actual stem cell expression to the predicted datapoints. Close the graph to proceed with the next step.
