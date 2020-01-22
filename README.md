@@ -18,12 +18,7 @@ Our program `modelsetup.py` contains the code used to build the model from Keras
 2. In your terminal, navigate to this folder using `cd`.
 3. Install all libraries indicated in `requirements.txt`.
 4. In your terminal, run `python modelsetup.py` to create a regression model based on the genetic data of stem cells and normal cells using Tensorflow and Keras. A number of statistics will show in the terminal regarding the accuracy of the model, and a graph will show the correlation of the actual stem cell expression to the predicted datapoints. Close the graph to proceed with the next step.
-5. In your terminal, input `export FLASK_APP=application`.
-6. In your terminal, run `flask run` and click on the link to our website.
-7. Browse and read through our content on the pages "Context", "Methodology", and "About Us".
-8. Click on the "Demonstration" page.
-9. Input any number between 0 and 100 inclusive in each of the boxes of the form; this number represents the percent expression of the corresponding gene.
-10. Click "Validate" to receive the predicted percentage probability that a cell with this genetic combination is a stem cell.
+5. 
 
 ## References
 The following sources were all very helpful in both understanding the problems surrounding stem cells and for helping us develop our code for both the ML model and the website, and we would like to reference them below:
