@@ -4,7 +4,7 @@ By RunLin Wang and Jonathan Liu, Harvard University
 ## Background Information
 Stem cells are unspecialized cells that can differentiate into various different types of cells, such as muscle cells and white blood cells. They have tremendous potential in regenerative medicine, since stem cells could theoretically be used to replace the tissues of damaged organs that cannot self-heal, such as the brain. This would allow for the development of cures for currently untreatable conditions like leukemia.
 
-On our website, we outline the issues surrounding stem cells in more detail, but in short the justification behind our project is that the stem cells required to treat certain diseases are often dangerous to extract or are surrounded by ethical debates. Thus, scientists have aimed to create stem cells from normal cells in the laboratory, which are called "induced" stem cells. 
+On our website, we outline the issues surrounding stem cells in more detail, but in short the justification behind our project is that the stem cells required to treat certain diseases are often dangerous to extract or are surrounded by ethical debates. Thus, scientists have aimed to create stem cells from normal cells in the laboratory, which are called "induced" stem cells.
 
 In order to make induced stem cells, researchers often modify the genetic expression of normal cells. Many genes related to cellular self-renewal, growth, and differentiation may be correlated to stem cell activity. However, it is difficult to reliably predict how changing a combination of closely connected genes could impact the cell as a whole. In this case, a computational model that predicts whether a combination of genes is likely to be a stem cell based on the genetic data of known stem cells would be highly beneficial for the scientific community. Such a model would allow researchers to screen particular combinations of genes for stem cell potential before investing further time and effort into genetically modifying a cell.
 
@@ -14,7 +14,7 @@ Our program `modelsetup.py` contains the code used to build the model from Keras
 
 ## Instructions for Use
 
-1. Download all files in this directory, keeping the folder organization intact. We strongly recommend that you do this on a local IDE (eg. Pycharm).
+1. Download all files in this directory, and move all files from their current folders into the parent folder. We strongly recommend that you do this on a local IDE (eg. Pycharm).
 2. In your terminal, navigate to this folder using `cd`.
 3. Install all libraries indicated in `requirements.txt`.
 4. In your terminal, run `python modelsetup.py` to create a regression model based on the genetic data of stem cells and normal cells using Tensorflow and Keras. A number of statistics will show in the terminal regarding the accuracy of the model, and a graph will show the correlation of the actual stem cell expression to the predicted datapoints. Close the graph to proceed with the next step.
