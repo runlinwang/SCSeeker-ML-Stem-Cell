@@ -25,6 +25,8 @@ Our program `modelsetup.py` contains the code used to build the model from Keras
 9. Input any number between 0 and 100 inclusive in each of the boxes of the form; this number represents the percent expression of the corresponding gene.
 10. Click "Validate" to receive the predicted percentage probability that a cell with this genetic combination is a stem cell.
 
+Alternatively, you can access our website and pretrained model directly at this link: https://sc-seeker.herokuapp.com/
+
 ## References
 The following sources were all very helpful in both understanding the problems surrounding stem cells and for helping us develop our code for both the ML model and the website, and we would like to reference them below:
 
